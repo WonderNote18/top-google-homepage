@@ -29,6 +29,7 @@ body {
     text-align: right;
     align-items: center;
     justify-content: flex-end;
+    min-width: 220px;
 }
 
 #headerright a {
@@ -53,8 +54,39 @@ body {
     height: 233px;
 }
 
-#goog_img {
+.goog_img {
     padding-top: 109px;
     width: "272";
     height: "92";
+}
+
+#searchbar_container {
+    top: 269px;
+    position: absolute;
+    min-width: 980px;
+    z-index: 103;
+    margin-top: 0px;
+    width: 100%;
+}
+
+#searchbar {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 484px;
+}
+
+#searchbar_border {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+.searchbar_input {
+    
 }
