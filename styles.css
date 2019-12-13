@@ -41,17 +41,55 @@ body {
     min-width: 220px;
 }
 
-#headerright a {
-    color: #000;
-    opacity: 0.75;
-    display: inline-block;
-    line-height: 24px;
-    vertical-align: middle;
-}
-
 .g_img {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.g_apps {
+    color: #000;
+    cursor: pointer;
+    background-position: -132px -38px;
+    background-image: url("https://web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-size: 528px 68px;
+    opacity: 0.85;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+
+#header_signin_container {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#header_signin_button {
+    position: relative;
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#header_signin {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
 }
 
 #main_container {
@@ -160,6 +198,7 @@ body {
 }
 
 .searchbar_input {
+    background: transparent;
     border: none;
     margin: 0;
     padding: 0;
@@ -172,4 +211,32 @@ body {
     font: 16px arial, sans-serif;
     line-height: 34px;
     height: 34px !important;
+}
+
+#searchbar_tts_container {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+#searchbar_tts_section { 
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+#searchbar_tts {
+    background: url("https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png") 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
 }
