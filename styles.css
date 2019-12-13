@@ -3,6 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#viewport {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    min-width: 980px;
+    margin: 0 auto;
+}
+
 #header {
     top: 16px;
     position: relative;
@@ -64,7 +73,10 @@ body {
     margin-top: -20px;
     min-width: 980px;
     height: 64px;
+    position: absolute;
     visibility: hidden;
+    left: 0;
+    width: 100%;
 }
 
 #searchbar_container {
@@ -84,6 +96,13 @@ body {
     width: 833px;
 }
 
+#goog_search {
+    margin: 0 auto;
+    padding-top: 6px;
+    position: relative;
+    width: 484px;
+}
+
 #searchbar_border {
     background: #fff;
     display: flex;
@@ -93,6 +112,7 @@ body {
     height: 44px;
     margin: 0 auto;
     width: 482px;
+    z-index: 3;
 }
 
 #searchbar_border_flex {
@@ -100,6 +120,17 @@ body {
     display: flex;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
+}
+
+#searchbox_icon_section {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+#searchbar_icon_container {
+    margin: auto;
 }
 
 .searchbar_input {
